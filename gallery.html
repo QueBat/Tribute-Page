@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="img/png" href="images/icon.png">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ a:hover {
+    background-color: #f1f1f1;
+}
+
+ a {
+    color: black;
+    background-color: #ddd;
+}
+
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>GALLERY</h1>
+<hr>
+
+<a href="index.html" type="button" value="HOME">HOME</a>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/1.jpg" alt="The Dream of the Fisherman's Wife" style="width:100%">
+      <h3><a href="#" type="button" value="The Dream of the Fisherman's Wife">The Dream of the Fisherman's Wife</a></h3>
+      <p>This image is a particularly impressive example of the erotic genre known as 
+	  'shunga,'. . .</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/2.jpg" alt="Fine Wind, Clear Weather" style="width:100%">
+      <h3><a href="#" type="button" value="Fine Wind, Clear Weather">Fine Wind, Clear Weather</a></h3>
+      <p>Fine Wind, Clear Weather is from Hokusai's best-known series, 
+	  Thirty-Six Views of Mount Fuji. Mount Fuji had . . .</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/3.jpg" alt="Fujimigahara in Owari Province" style="width:100%">
+      <h3><a href="#" type="button" value="Fujimigahara in Owari Province">Fujimigahara in Owari Province</a></h3>
+      <p>This print celebrates the everyday life of the worker, with his inadvertent 
+	  framing of Mount Fuji... </p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/4.jpg" alt="Great Wave off Kanagawa" style="width:100%">
+      <h3><a href="4.html" type="button" value="HOME">Great Wave off Kanagawa</a></h3>
+      <p>The moment which Hokusai has chosen to depict, when the wave is on the brink 
+	  of breaking . . . </p></div>
+  </div>
+  
+<!-- END GRID -->
+</div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/5.jpg" alt="Ejiri in Suruga Province (Sunshū Ejiri)" style="width:100%">
+      <h3><a href="#" type="button" value="Ejiri in Suruga Province (Sunshū Ejiri)">Ejiri in Suruga Province (Sunshū Ejiri)</a></h3>
+      <p>Mount Fuji is shown without clouds, which were probably blown
+	  away by strong winds. Travelers along . . .</p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/6.jpg" alt="Dawn_at_Isawa_in_the_Kai_province" style="width:100%">
+      <h3><a href="#" type="button" value="Dawn_at_Isawa_in_the_Kai_province">Dawn at Isawa in the Kai province</a></h3>
+      <p>As the sun rises on the horizon, flushing the sky with a soft pink haze, 
+	  travelers depart for a long journey. . .</p></div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/7.jpg" alt="The suspension bridge on the border of Hida and Etchū provinces" style="width:100%">
+      <h3><a href="#" type="button" value="The suspension bridge on the border of Hida and Etchū provinces">The suspension bridge on the border of Hida and Etchū provinces</a></h3>
+      <p>Hokusai created a whole series of prints devoted to bridges . . . </p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/8.jpg" alt="Old Tiger in the Snow" style="width:100%">
+      <h3><a href="#" type="button" value="Old Tiger in the Snow">Old Tiger in the Snow</a></h3>
+      <p>Old Tiger in the Snow is one of Hokusai's last works and can be read as 
+	  autobiographical, expressing . . . </p>
+	  </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/9.jpg" alt="Hodogaya on the Tōkaidō" style="width:100%">
+      <h3><a href="#" type="button" value="Hodogaya on the Tōkaidō">Hodogaya on the Tōkaidō</a></h3>
+      <p>This composition is well known for its theatrical setting in which 
+	  travellers move like actors across a stage. . . </p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/10.jpg" alt="Fuji from Kanaya on the Tōkaidō" style="width:100%">
+      <h3><a href="#" type="button" value="Fuji from Kanaya on the Tōkaidō">Fuji from Kanaya on the Tōkaidō</a></h3>
+      <p>Many of Hokusai’s most famous images come from Thirty-six Views 
+	  of Mt Fuji – a series comprised. . . </p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/11.jpg" alt="Fuji from Gotenyama at Shinagawa on the Tōkaidō" style="width:100%">
+     <h3><a href="#" type="button" value="Fuji from Gotenyama at Shinagawa on the Tōkaidō">Fuji from Gotenyama at Shinagawa on the Tōkaidō</a></h3>
+      <p>Another of the Fuji series, in this print we see the traditional 
+	  festive occasion . . . </p>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/12.jpg" alt="Waterwheel at Onden" style="width:100%">
+      <h3><a href="#" type="button" value="Waterwheel at Onden">Waterwheel at Onden</a></h3>
+      <p>Hokusai was fascinated with depicting movement and human invention, 
+	  and believed that the labours . . . </p>
+	  </div>
+  </div>
+  
+<!-- END GRID -->
+</div>
+
+
+
+</body>
+</html>
